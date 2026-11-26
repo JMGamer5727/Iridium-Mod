@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "iridium",
+  "version": "${version}",
+  "name": "Iridium",
+  "description": "Adds Iridium ore, tools, and armor to Minecraft.",
+  "authors": [
+    "JMGamer5727"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jmgamer5727.iridium.IridiumMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.163.0"
+  }
+}
